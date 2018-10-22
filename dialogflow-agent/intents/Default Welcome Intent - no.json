@@ -1,0 +1,54 @@
+{
+  "id": "5ca53c2e-bcdf-4478-ab01-24595dfd24fc",
+  "parentId": "66a79e09-6b26-4cdd-b254-40b7402f5aad",
+  "rootParentId": "66a79e09-6b26-4cdd-b254-40b7402f5aad",
+  "name": "Default Welcome Intent - no",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003eTransferring\u003c/speak\u003e"
+        },
+        {
+          "type": 13,
+          "platform": "telephony",
+          "lang": "en",
+          "audioUri": "gs://telephonysample.appspot.com/Piano.wav"
+        },
+        {
+          "type": 15,
+          "platform": "telephony",
+          "lang": "en",
+          "phoneNumber": "+12023334444"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry I couldn\u0027t help you today, I\u0027ll connect you to the main line in a moment"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540502216,
+  "fallbackIntent": false,
+  "events": []
+}

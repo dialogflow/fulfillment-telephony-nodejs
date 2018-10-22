@@ -1,0 +1,102 @@
+{
+  "id": "10826b57-0364-4b02-afe4-9d59b2ef4bf4",
+  "name": "makeRes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "75ec31ea-a9d5-4078-87a7-6b468880940e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027ll need a full name for the reservation"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "14736c03-5798-4432-9187-78233105e5e8",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "groupN",
+          "value": "$groupN",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many in your party?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "4ebfa1cb-cef8-4882-873b-2a76cee90a79",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which day is this reservation for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "424d9e44-3616-4ab1-bb08-8b50b3bed685",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And for what time?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f0b33fab-417a-4b45-8720-3e63ffa72f5f",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What number can we reach you at?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great, I have got you down for $date at $time.original, see you later!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540248664,
+  "fallbackIntent": false,
+  "events": []
+}

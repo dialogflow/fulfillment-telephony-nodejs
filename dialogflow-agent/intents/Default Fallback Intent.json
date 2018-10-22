@@ -1,0 +1,31 @@
+{
+  "id": "c98c9c00-ca67-476a-8746-773ea6e5c238",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry I didn\u0027t catch that do you want to continue making a reservation or would you prefer to be transferred to the main line?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1539295200,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "5315fbc9-6a11-40ab-8089-49803e738264",
+  "name": "transfercall",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "ssml": "\u003cspeak\u003eTransferring\u003c/speak\u003e"
+        },
+        {
+          "type": 13,
+          "platform": "telephony",
+          "lang": "en",
+          "audioUri": "gs://telephonysample.appspot.com/Piano.wav"
+        },
+        {
+          "type": 15,
+          "platform": "telephony",
+          "lang": "en",
+          "phoneNumber": "+12023334444"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m sorry I couldn\u0027t take down your reservation but you\u0027ll be connected to the main line in a moment"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540502109,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "call_transfer_event"
+    }
+  ]
+}

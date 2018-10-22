@@ -1,0 +1,35 @@
+{
+  "id": "7dbacbd6-c030-4443-b54b-62fb85702642",
+  "parentId": "66a79e09-6b26-4cdd-b254-40b7402f5aad",
+  "rootParentId": "66a79e09-6b26-4cdd-b254-40b7402f5aad",
+  "name": "Default Welcome Intent - yes",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay sounds good! Remember at any point you can say transfer to be transferred to the direct line.  I\u0027ll just need some information, starting with the full name this reservation will be under."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540241958,
+  "fallbackIntent": false,
+  "events": []
+}

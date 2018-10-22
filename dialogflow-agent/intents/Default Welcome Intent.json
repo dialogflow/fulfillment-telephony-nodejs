@@ -1,0 +1,44 @@
+{
+  "id": "66a79e09-6b26-4cdd-b254-40b7402f5aad",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\u003cspeak\u003eHi there, are you calling to make a reservation at \u003csay-as interpret-as\u003d\"characters\"\u003eOMG\u003c/say-as\u003e Garden?\u003c/speak\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539905543,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEPHONY_WELCOME"
+    }
+  ]
+}

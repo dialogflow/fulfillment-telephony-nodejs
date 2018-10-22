@@ -1,0 +1,243 @@
+[
+  {
+    "id": "7cc9254e-f530-4807-9be8-31b55103f5f2",
+    "data": [
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539104860
+  },
+  {
+    "id": "d1e8371c-e666-478d-8619-ebdad27babb5",
+    "data": [
+      {
+        "text": "david",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " is my ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539904174
+  },
+  {
+    "id": "a07ac913-a03d-4323-8e51-6de80b736cb9",
+    "data": [
+      {
+        "text": "make reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539295285
+  },
+  {
+    "id": "b03dba7f-89e7-4e75-92b3-a6cd36e6f59b",
+    "data": [
+      {
+        "text": "4153333333",
+        "alias": "phone",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539195468
+  },
+  {
+    "id": "0f462f09-f46d-45fb-a2d6-89e00fd3eebe",
+    "data": [
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539104860
+  },
+  {
+    "id": "7feb9797-efee-431e-b805-493b37bf139c",
+    "data": [
+      {
+        "text": "4",
+        "alias": "groupN",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539195468
+  },
+  {
+    "id": "8c318888-e8c5-4798-a4e4-ec992550d025",
+    "data": [
+      {
+        "text": "attenborough",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " is my last name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539296906
+  },
+  {
+    "id": "ce95fc07-1ef7-4bd5-acb9-008503c2223f",
+    "data": [
+      {
+        "text": "i\u0027d like to make a reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539295285
+  },
+  {
+    "id": "638b7a79-1b1a-46f5-81ed-066bedb116b8",
+    "data": [
+      {
+        "text": "Kosiorek",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539190122
+  },
+  {
+    "id": "de684b22-b657-4988-9603-e1a056b4ced9",
+    "data": [
+      {
+        "text": "3",
+        "alias": "groupN",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539195468
+  },
+  {
+    "id": "6ebfbca7-2951-44ab-9d08-afe1e1f8794d",
+    "data": [
+      {
+        "text": "barack obama",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539904174
+  },
+  {
+    "id": "cd56905f-98ff-4031-bf36-466468ad4405",
+    "data": [
+      {
+        "text": "1 o\u0027clock",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1539104860
+  },
+  {
+    "id": "8e5daa2a-6a6e-4e36-a9ba-e6e851c4f95a",
+    "data": [
+      {
+        "text": "next Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539104860
+  },
+  {
+    "id": "c130ecad-a68f-43f4-9952-3b83085701a3",
+    "data": [
+      {
+        "text": "5",
+        "alias": "groupN",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539104860
+  },
+  {
+    "id": "ec97c53a-2bd1-45b8-8757-eb951a72917f",
+    "data": [
+      {
+        "text": "sure ",
+        "userDefined": false
+      },
+      {
+        "text": "john smith",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539904174
+  },
+  {
+    "id": "b383275a-2068-41d7-82b5-4acf43bcd176",
+    "data": [
+      {
+        "text": "1pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539104860
+  }
+]
